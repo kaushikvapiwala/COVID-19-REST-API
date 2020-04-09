@@ -1,0 +1,27 @@
+{
+  "name": "covid19api",
+  "description": "Covid 19 API",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "author": "Kaushik Vapiwala",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaushikvapiwala/COVID-19-REST-API"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha --exit test/*.test.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "mocha": "^7.0.0",
+    "supertest": "^4.0.2"
+  }
+}
